@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [search, setSearch] = useState(false)
 
@@ -20,19 +21,19 @@ const Navbar = () => {
     <div className='navbar'>
       <ul className='navbar_list'>
         <li>
-          <a href='#'>Home</a>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <a href='#'>Posts</a>
+          <Link to='/about-us'>About Us</Link>
         </li>
         <li>
-          <a href='#'>Inspirations</a>
+          <Link to='/contact-us'>Contact Us</Link>
         </li>
         <li>
           <a href='#'>Gallery</a>
         </li>
         <li>
-          <a href='#'>Contact Us</a>
+          <Link to='/post'>Post</Link>
         </li>
       </ul>
       <div className='navbar_search'>

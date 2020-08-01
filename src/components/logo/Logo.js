@@ -3,8 +3,10 @@ import './logo.css'
 const Logo = () => {
   return (
     <div className='logo'>
-      <a href='#'>TIME and CHANCES</a>
-      <p>The Ultimate Truth Of Life</p>
+      <a href='#'>
+        <h1>TIME and CHANCES</h1>
+      </a>
+      <h3>The Ultimate Truth Of Life</h3>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { Card } from '../UI/card/Card'
 import Logo from '../logo/Logo'
 import Navbar from '../navbar/Navbar'
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <>
       <Card>
@@ -15,3 +15,5 @@ export const Hero = () => {
     </>
   )
 }
+
+export default Hero
